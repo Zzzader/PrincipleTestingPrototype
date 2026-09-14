@@ -38,5 +38,3 @@ backend_test_job:
     - cd luxuryproducts_backend
   script:
     - mvn test -Dtest=*UnitTests
-  tags:
-    - GandalfRunner
