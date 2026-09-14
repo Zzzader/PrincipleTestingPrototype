@@ -19,7 +19,7 @@ public class HelloWorld {
         String result = "Hello World";
         String input = helloWorldDTO.name;
         if (input.equals(result) ){
-            return ResponseEntity.ok("Access granted");
+            return ResponseEntity.ok("Access granted - welcome :D");
         }
         else{
             return ResponseEntity.ok("Access denied");
