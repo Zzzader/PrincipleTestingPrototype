@@ -26,4 +26,10 @@ public class HelloWorld {
         }
     }
 
+
+    @GetMapping("test")
+    public String TestingHelloWorld() {
+        return "Hello World test";
+    }
 }
+
